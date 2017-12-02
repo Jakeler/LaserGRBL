@@ -141,7 +141,7 @@ namespace LaserGRBL.UserControls
 			if (this.TextLength <= 0)
 			{
 				RemoveWaterMark();
-				DrawWaterMark();
+				//DrawWaterMark();
 			}
 		}
 
@@ -171,7 +171,7 @@ namespace LaserGRBL.UserControls
 			else
 			{
 				//But if the text is empty, draw the watermark again.
-				DrawWaterMark();
+				//DrawWaterMark();
 			}
 		}
 
